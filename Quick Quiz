@@ -1,0 +1,39 @@
+print("Welcome to Quiz competation")
+playing = input("Are interested in playing ? ")
+score =0
+if playing!="yes":
+    quit()
+print("Let's Begin...")
+answer=input("Name one Educated Indian youtuber? ")
+if answer== "Dhuru Rathe":
+    print('correct')
+    score +=1
+else:
+    print("incorrect")
+answer = input("Who is the Captain of Indian Cricket Team? ")
+if answer== "Rohit Sharma":
+    print('correct')
+    score +=1
+else:
+    print("incorrect")
+answer = input("What is the fullform of RAM? " )
+if answer== "Random Access Memory":
+    print('correct')
+    score +=1
+else:
+    print("incorrect")
+answer = input("What is the process of converting raw data into useful data? ")
+if answer== "Data Processing":
+    print('correct')
+    score +=1
+else:
+    print("incorect")
+answer = input("What is the term used to describe patern and realtionship in data? " )
+if answer== "Data Mining":
+    print('correct')
+    score +=1
+else:
+    print("incorrect")
+
+print("You got  " + str(score)+  " correct answers")
+print("quiz over...Good Byee")
